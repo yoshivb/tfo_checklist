@@ -49,6 +49,13 @@ module.exports = env =>
     module: {
       rules: [
         {
+          test: /\.hbs$/,
+          exclude: [
+            /node_modules/
+          ],
+          loader: 'handlebars-loader'
+        },
+        {
           test: /\.ts$/,
           exclude: /node_modules/,
           loader: 'ts-loader'

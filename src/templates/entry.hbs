@@ -1,0 +1,17 @@
+<div class="entry_field">
+	<div class="entry_title">
+		{{#if ImgURL}}
+		<img src="{{ImgURL}}"/>
+		{{/if}}
+		<p>{{Name}}</p>
+		<input type="checkbox"/>
+	</div>
+	{{#if GenderCheck}}
+		{{> gender_list}}
+	{{/if}}
+	{{#with GeneList}}
+		{{#each .}}
+			{{> gene_list}}
+		{{/each}}
+	{{/with}}
+</div>

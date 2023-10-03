@@ -1,0 +1,12 @@
+<div class="gene_list">
+	<p>{{GeneComp}}:</p>
+	{{#each GeneSpecs}}
+		<div class="gene_spec">
+			<p>{{Spec}}</p>
+			{{#if GenderCheck}}
+				{{> gender_list}}
+			{{/if}}
+			<input type="checkbox"/>
+		</div>
+	{{/each}}
+</div>

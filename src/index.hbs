@@ -9,6 +9,20 @@
   </head>
   <body>
     <h1>{{Title}}</h1>
+    <div id="check_list">
+    </div>
+    <div id="add_form">
+      <label for="ImgURL">Image:</label>
+      <input type="file" name="ImgURL" accept="image/png, image/jpeg" />
+      <label for="Name">Name:</label>
+      <input type="text" name="Name" />
+      <label for="GenderCheck">Do you care about Gender?</label>
+      <input type="checkbox" name="GenderCheck" />
+      <label>Genes Categories:</label>
+      <button class="add_gene_category_button">Add Gene Category</button>
+      <div id="gene_category_container"></div>
+      <button class="add_creatore">Add Creatore</button><button>Reset Creatore</button>
+    </div>
     <script type="text/javascript" src="bundle.js"></script>
   </body>
 </html>

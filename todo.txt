@@ -1,0 +1,4 @@
+- Save Info in local storage
+- Reset input
+- Cleanup visuals
+? Export/Import capabilities

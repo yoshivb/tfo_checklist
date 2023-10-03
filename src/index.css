@@ -1,0 +1,16 @@
+:root 
+{
+    --main-text-color: rgb(232, 224, 224);
+    --main-bg-color: #262626;
+    --darker-bg-color: #1a1a1a;
+    --darker-transparent-bg-color: #1a1a1aa1;
+    --link-text-color: #F54D4D;
+    --text-shadow-color: rgba(0, 0, 1.0);
+}
+
+body
+{
+    font-family: 'Open Sans','Helvetica Neue','Helvetica','Arial','sans-serif';
+    background-color: #262626;
+    color: var(--main-text-color);
+}

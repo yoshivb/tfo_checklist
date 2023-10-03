@@ -6,7 +6,7 @@
   "scripts": {
     "start": "run-p start:**",
     "start:devserver": " npx webpack serve --hot",
-    "start:webpack": "webpack --watch --mode development --env output=./site",
+    "start:webpack": "webpack --watch --mode development",
     "build": "webpack"
   },
   "keywords": [],

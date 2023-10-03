@@ -73,7 +73,7 @@ typings/
 .cache
 
 # build output
-site/
+build/
 
 # Gatsby files
 .cache/
